@@ -1,19 +1,20 @@
-__author__ = 'Tomasz Jakub Rup'
-
 import sys
 import datetime
 import itertools
+
+
+__author__ = 'Tomasz Jakub Rup'
 
 
 def possible_dates(date, separator=None):
     if separator is None:
         separator = '/'
 
-    dates = []
+    dates = set()
 
     parts = date.split(separator)
     if len(parts) != 3:
-        return dates
+        return []
 
     input_parts = [int(part) for part in parts]
 
@@ -22,11 +23,11 @@ def possible_dates(date, separator=None):
             if year < 2000:
                 year += 2000
 
-            dates.append(datetime.date(year=year, month=month, day=day))
+            dates.add(datetime.date(year=year, month=month, day=day))
         except ValueError:
             pass
 
-    return dates
+    return sorted(dates)
 
 
 if __name__ == '__main__':

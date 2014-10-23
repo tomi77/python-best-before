@@ -37,3 +37,4 @@ also by 100 but not by 400 (so 2000 is a leap year, 2100 is not a leap year, and
 year).
 
 [![Build Status](https://travis-ci.org/tomi77/python-best-before.svg)](https://travis-ci.org/tomi77/python-best-before)
+[![Coverage Status](https://img.shields.io/coveralls/tomi77/python-best-before.svg)](https://coveralls.io/r/tomi77/python-best-before)

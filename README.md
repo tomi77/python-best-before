@@ -35,3 +35,5 @@ to the above constraints) then output a single line with the original string fol
 Recall that a year is a leap year (has 366 days) if the year is divisible by 4, unless it is divisible
 also by 100 but not by 400 (so 2000 is a leap year, 2100 is not a leap year, and 2012 is a leap
 year).
+
+[![Build Status](https://travis-ci.org/tomi77/python-best-before.svg)](https://travis-ci.org/tomi77/python-best-before)

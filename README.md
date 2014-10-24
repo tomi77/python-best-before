@@ -38,3 +38,4 @@ year).
 
 [![Build Status](https://travis-ci.org/tomi77/python-best-before.svg)](https://travis-ci.org/tomi77/python-best-before)
 [![Coverage Status](https://img.shields.io/coveralls/tomi77/python-best-before.svg)](https://coveralls.io/r/tomi77/python-best-before)
+[![Code Climate](https://codeclimate.com/github/tomi77/python-best-before/badges/gpa.svg)](https://codeclimate.com/github/tomi77/python-best-before)

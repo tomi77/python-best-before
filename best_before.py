@@ -41,7 +41,8 @@ if __name__ == '__main__':
     f = open(filename, 'r')
 
     for line in f:
-        try:
-            print min(possible_dates(line.strip()))
-        except ValueError:
+        dates = possible_dates(line.strip())
+        if len(dates) > 0:
+            print min(dates)
+        else:
             print 'is illegal'

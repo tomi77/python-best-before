@@ -43,6 +43,6 @@ if __name__ == '__main__':
     for line in f:
         dates = possible_dates(line.strip())
         if len(dates) > 0:
-            print min(dates)
+            print min(dates).strftime('%Y-%m-%d')
         else:
             print 'is illegal'

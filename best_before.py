@@ -14,7 +14,7 @@ def possible_dates(date, separator=None):
 
     parts = date.split(separator)
     if len(parts) != 3:
-        return []
+        return dates
 
     input_parts = [int(part) for part in parts]
 

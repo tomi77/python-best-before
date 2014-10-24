@@ -29,7 +29,7 @@ def possible_dates(date, separator=None):
         else:
             dates.add(new_date)
 
-    return sorted(dates)
+    return dates
 
 
 if __name__ == '__main__':

@@ -19,13 +19,15 @@ def possible_dates(date, separator=None):
     input_parts = [int(part) for part in parts]
 
     for year, month, day in itertools.permutations(input_parts):
-        try:
-            if year < 2000:
-                year += 2000
+        if year < 2000:
+            year += 2000
 
-            dates.add(datetime.date(year=year, month=month, day=day))
+        try:
+            new_date = datetime.date(year=year, month=month, day=day)
         except ValueError:
             pass
+        else:
+            dates.add(new_date)
 
     return sorted(dates)
 

@@ -38,3 +38,4 @@ year).
 
 [![Build Status](https://travis-ci.org/tomi77/python-best-before.svg)](https://travis-ci.org/tomi77/python-best-before)
 [![Coverage Status](https://img.shields.io/coveralls/tomi77/python-best-before.svg)](https://coveralls.io/r/tomi77/python-best-before)
+[![Requirements Status](https://requires.io/github/tomi77/python-best-before/requirements.svg?branch=master)](https://requires.io/github/tomi77/python-best-before/requirements/?branch=master)
